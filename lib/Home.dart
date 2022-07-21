@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:exo_flutter/Screen.dart/formulaire.dart';
+
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);
@@ -21,7 +23,7 @@ class Home extends StatelessWidget {
              
                onTap: ()
                 {
-                 // Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Connexion()),);
+                  Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Formulaire(),),);
                 },
 
             ),

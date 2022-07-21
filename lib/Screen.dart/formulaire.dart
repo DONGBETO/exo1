@@ -10,7 +10,7 @@ class Formulaire extends StatelessWidget {
       appBar: AppBar(
           title: Text(
         'Page de connexion',
-        style: TextStyle(backgroundColor: Colors.blue),
+       
       ),
       ),
       body: Input(),
